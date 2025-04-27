@@ -1,0 +1,70 @@
+/* 🌟 Background Gradients */
+--bg-gradient-onyx: linear-gradient(
+  to bottom right, 
+  hsl(200, 85%, 22%) 3%, /* Deep Ocean Blue */
+  hsl(280, 60%, 24%) 97% /* Royal Amethyst */
+);
+
+--bg-gradient-jet: linear-gradient(
+  to bottom right, 
+  hsla(40, 90%, 38%, 0.35) 0%, /* Rich Golden Topaz */
+  hsla(10, 80%, 40%, 0) 100%  /* Sunset Orange */
+), hsl(40, 90%, 38%);
+
+--bg-gradient-yellow-1: linear-gradient(
+  to bottom right, 
+  hsl(30, 95%, 55%) 0%,  /* Warm Sunset Amber */
+  hsla(15, 100%, 50%, 0) 50% /* Burnt Sienna */
+);
+
+--bg-gradient-yellow-2: linear-gradient(
+  135deg, 
+  hsla(30, 95%, 55%, 0.25) 0%, 
+  hsla(15, 100%, 50%, 0) 60%
+), hsl(280, 60%, 24%); /* Deep Royal Amethyst */
+
+/* 🖌️ Border Gradient */
+--border-gradient-onyx: linear-gradient(
+  to bottom right, 
+  hsl(320, 75%, 35%) 0%,   /* Vivid Fuchsia */
+  hsla(200, 70%, 25%, 0) 50% /* Electric Azure */
+);
+
+/* 🎨 Text Gradient */
+--text-gradient-yellow: linear-gradient(
+  to right, 
+  hsl(35, 95%, 60%),  /* Golden Sunrise */
+  hsl(320, 70%, 55%)  /* Vibrant Orchid Pink */
+);
+
+/* 🎨 **Solid Colors (Completely Changed)** */
+
+/* 🌈 Core Dark Colors */
+--jet: hsl(320, 70%, 20%); /* Deep Magenta */
+--onyx: hsl(200, 85%, 22%); /* Deep Ocean Blue */
+--eerie-black-1: hsl(280, 60%, 24%); /* Royal Amethyst */
+--eerie-black-2: hsl(35, 85%, 30%); /* Warm Golden Brown */
+--smoky-black: hsl(10, 80%, 25%); /* Burnt Orange */
+
+/* ⚪ **Whites (Slightly Off-White for Depth)** */
+--white-1: hsl(0, 0%, 97%); /* Bright Pearl White */
+--white-2: hsl(0, 0%, 93%); /* Soft Warm White */
+
+/* 💖 **Pink & Reds** */
+--dusky-rose: hsl(320, 65%, 40%); /* Deep Orchid */
+--bittersweet-shimmer: hsl(10, 75%, 42%); /* Burnt Orange-Red */
+
+/* 🌞 **Golden & Sunset Shades** */
+--orange-yellow-crayola: hsl(35, 95%, 50%); /* Golden Sunset */
+--vegas-gold: hsl(30, 65%, 42%); /* Muted Saffron */
+
+/* 🌫️ **Grays (Subtle Enhancements)** */
+--light-gray: hsl(0, 0%, 78%);
+--light-gray-70: hsla(0, 0%, 78%, 0.7);
+
+/* 🌟 **Shadows (Smooth for a Modern Look)** */
+--shadow-1: -4px 8px 24px hsla(320, 80%, 45%, 0.25);   /* Vivid Fuchsia Shadow */
+--shadow-2: 0 16px 30px hsla(200, 85%, 35%, 0.25);  /* Deep Ocean Blue Shadow */
+--shadow-3: 0 16px 40px hsla(280, 60%, 24%, 0.25);  /* Royal Amethyst Shadow */
+--shadow-4: 0 25px 50px hsla(35, 85%, 30%, 0.15);   /* Warm Golden Brown Shadow */
+--shadow-5: 0 24px 80px hsla(10, 80%, 25%, 0.25);  /* Burnt Orange Shadow */

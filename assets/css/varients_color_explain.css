@@ -1,0 +1,38 @@
+--bg-gradient-perfect-1: linear-gradient(
+  to bottom right, 
+  hsl(220, 85%, 20%) 3%, 
+  hsl(330, 80%, 30%) 97% 
+);
+
+--bg-gradient-perfect-2: linear-gradient(
+  to bottom right, 
+  hsla(220, 85%, 20%, 1) 0%,  
+  hsla(265, 85%, 50%, 0.65) 50%, 
+  hsla(330, 80%, 30%, 0.85) 100% 
+);
+
+/* 🎭 **Core Dark Colors** */
+--smoky-black: hsl(220, 85%, 20%); /*full bg background */
+--eerie-black-2: hsl(330, 80%, 30%); /* secondary bg */
+
+/* ⚪ **Whites for UI & Text Highlights** */
+--white-1: hsl(0, 0%, 100%); /* text for example name */
+--white-2: hsl(0, 0%, 96%); /* secondary text color example main block text like h1 and h2  */
+
+/* 💎 **Rich Accents for Buttons & Highlights** */
+--bittersweet-shimmer: hsl(340, 75%, 55%); 
+--emerald-teal: hsl(210, 90%, 45%); 
+
+--orange-yellow-crayola: hsl(325, 85%, 65%); /* option to show more like parent and child option */
+--vegas-gold: hsl(210, 75%, 55%); /* such as number passing year color example 2016- 2017 this color */
+
+/* 🌫️ **Grays for Borders & Subtle Elements** */
+--light-gray: hsl(215, 5%, 50%); /* title color example email birthday and etc this color */
+--light-gray-70: hsla(215, 5%, 50%, 0.7);
+
+/* 🌟 **Soft Glowy Shadows for Depth** */
+--shadow-1: -4px 8px 24px hsla(340, 75%, 55%, 0.25);  
+--shadow-2: 0 16px 30px hsla(210, 90%, 45%, 0.25); 
+--shadow-3: 0 16px 40px hsla(265, 85%, 50%, 0.25);  
+--shadow-4: 0 25px 50px hsla(325, 85%, 38%, 0.15); 
+--shadow-5: 0 24px 80px hsla(210, 85%, 35%, 0.25); 
