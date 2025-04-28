@@ -4,7 +4,7 @@
 
 document.addEventListener("DOMContentLoaded", function () {
 
-    fetch("http://127.0.0.1:8000/validate", {
+    fetch("https://curl-check.vercel.app/validate", {
         method: "GET",
         headers: { 
             "Content-Type": "application/json",
