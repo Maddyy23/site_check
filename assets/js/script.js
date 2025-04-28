@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
         } else {
             // If the response status is not "ok", redirect to another page
             console.log("Access denied, redirecting...");
-            window.location.href = "https://site-check-six.vercel.app/";  // Corrected the redirection URL
+             // Corrected the redirection URL
         }
     })
     .catch(error => {
