@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/site_check/(.*)", 
+      "destination": "/403.html" 
+    }
+  ]
+}
