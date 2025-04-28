@@ -1,8 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/site_check/(.*)", 
-      "destination": "/403.html" 
+      "source": "/assets/(.*)",  // Any URL under /assets/*
+      "destination": "/403.html" // Redirect to 403.html
+    },
+    {
+      "source": "/site_check/(.*)",     // Any URL under /app/*
+      "destination": "/403.html" // Redirect to 403.html
     }
   ]
 }
