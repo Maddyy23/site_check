@@ -1,3 +1,13 @@
+<?php
+$userAgent = $_SERVER['HTTP_USER_AGENT'] ?? '';
+
+if (preg_match('/curl|wget/i', $userAgent)) {
+    http_response_code(403);
+    exit('Access denied');
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
